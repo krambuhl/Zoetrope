@@ -1,0 +1,40 @@
+{
+  "name": "Zoetrope",
+  "repository": "git@github.com:krambuhl/Zoetrope.git",
+  "version": "0.1.0",
+  "devDependencies": {
+    "matchdep": "~0.3.0",
+    "grunt": "~0.4.4",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-bower-concat": "~0.2.4",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-watchify": "~0.1.0",
+    "grunt-testling": "~1.0.0",
+    "testling": "~1.6.1",
+    "tape": "~2.12.3"
+  },
+  "dependencies": {
+    "extend-object": "~1.0.0",
+    "events": "~1.0.0",
+    "dom-events": "~0.1.1",
+    "throttleit": "0.0.2",
+    "debounce": "0.0.3",
+    "type-detect": "~0.1.2",
+    "sliced": "0.0.5",
+    "object-extend": "~0.5.0"
+  },
+
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  }
+}
